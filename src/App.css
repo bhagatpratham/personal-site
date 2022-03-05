@@ -5,7 +5,7 @@
   --text: #292929;
 }
 
-* {
+body {
   padding: 8px 16px;
 }
 
@@ -31,4 +31,21 @@ a {
   text-decoration: none;
   color: var(--text);
   font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
+.highlight {
+  margin-bottom: 20px;
 }
