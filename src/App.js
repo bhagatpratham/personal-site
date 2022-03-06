@@ -11,7 +11,7 @@ import Layout from "./components/Layout";
 function App() {
   return (
     <div className="App">
-      <Layout>
+      <Layout className="main">
         <nav className="nav-links">
           <ul>
             <li className="name">Pratham Bhagat</li>

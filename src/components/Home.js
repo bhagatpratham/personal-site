@@ -4,8 +4,8 @@ import styled from "styled-components";
 import "../components/Styles/Home.css";
 
 const Home = () => {
-  const Custom = styled.a`
-    color: "blue";
+  const LINK = styled.a`
+    color: blue;
     text-decoration: underline;
   `;
 
@@ -19,16 +19,16 @@ const Home = () => {
           I spend most of my time on{" "}
           {
             <Link to="/summaries">
-              <Custom>reading</Custom>
+              <LINK>reading</LINK>
             </Link>
           }
           ,
           <Link to="/blogs">
-            <Custom> writing</Custom>
+            <LINK> writing</LINK>
           </Link>{" "}
           ,
           <Link to="/projects">
-            <Custom> programming</Custom>
+            <LINK> programming</LINK>
           </Link>{" "}
           or hanging out with friends.
         </li>
